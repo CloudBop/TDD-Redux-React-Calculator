@@ -28,7 +28,7 @@ describe('Calculate', () => {
     expect(calculate(expression)).toBe(4.8)
   })
 
-  it ('should throw an error for expressions starting with any other operator apart from "-" ', () => {
+  it ('should throw an error for expressions starting with any other operator apart from "-"', () => {
 
     expression = '*30-6'
     expect(calculate(expression)).toThrow();
