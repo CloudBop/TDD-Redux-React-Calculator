@@ -1,3 +1,8 @@
+# A Redux Testing implmentation of a Calculator.
+
+## From this tutorial
+https://medium.com/@mazinosukah/lets-build-a-calculator-with-redux-and-react-using-tdd-6cb11946bad4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

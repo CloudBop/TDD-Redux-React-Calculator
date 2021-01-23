@@ -1,5 +1,5 @@
 export default (expression) => {
-
+  // regex to match a portion of the expressions entered.
   const matched = (new RegExp('([\\d]+\\.?[\\d]*)?([-+/*][\\d]+\\.?[\\d]*)*')).exec(expression)
 
   if (!matched) {
